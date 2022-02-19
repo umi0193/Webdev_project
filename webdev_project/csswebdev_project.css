@@ -1,0 +1,40 @@
+.above_headdy {
+    display: flex;
+    background-color: #0F0F0F;
+    justify-content: space-between; 
+}
+.headdy {
+    display: flex;
+    background-color: #0F0F0F;
+    justify-content: space-between;
+}
+
+.header_logo_text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 20;
+    color: #ffffff;
+}
+
+.header_tool_elements {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    list-style-type: none;
+    color: #ffffff;  
+}
+.header_tool_elements_li {
+    display:inline-block;
+    padding: 30px 20px;   
+}
+.header_tool_elements_li:hover {
+    background: #1F1F1F;
+}
+.above_header_tool_text {
+    display:inline-block;
+    align-items: center;
+}
